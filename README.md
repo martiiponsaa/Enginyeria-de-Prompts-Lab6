@@ -1,18 +1,29 @@
 # Enginyeria-de-Prompts-Lab6
 
-A TypeScript application scaffold with a basic structure and examples.
+A React with TypeScript application scaffold with a basic structure and examples.
 
 ## Project Structure
 
 ```
 ├── src/                # Source code
-│   ├── index.ts        # Main entry point
-│   └── services/       # Service classes
-│       └── example.service.ts
-├── dist/               # Compiled JavaScript (generated)
+│   ├── components/     # React components
+│   │   ├── Counter.tsx # Counter component with state
+│   │   ├── Header.tsx  # Header component 
+│   │   └── Navigation.tsx # Navigation bar component
+│   ├── contexts/       # React Context providers
+│   │   └── ThemeContext.tsx # Theme context for styling
+│   ├── pages/          # Page components
+│   │   ├── HomePage.tsx # Home page component
+│   │   └── AboutPage.tsx # About page component
+│   ├── services/       # Service classes
+│   │   └── example.service.ts # Example service
+│   ├── App.tsx         # Main App component with routing
+│   ├── index.tsx       # React entry point
+│   ├── index.css       # Global styles
+│   └── types.ts        # TypeScript type definitions
 ├── public/             # Static assets
-│   ├── index.html
-│   └── styles.css
+│   ├── index.html      # HTML entry point
+│   └── manifest.json   # Web app manifest
 ├── package.json        # Project dependencies and scripts
 ├── tsconfig.json       # TypeScript configuration
 ├── .gitignore          # Git ignore file
@@ -25,6 +36,8 @@ A TypeScript application scaffold with a basic structure and examples.
 
 - Node.js (v14 or later)
 - TypeScript
+- React and React DOM
+- React Router (for navigation)
 
 ### Installation
 
@@ -42,25 +55,36 @@ A TypeScript application scaffold with a basic structure and examples.
 
 - Run the development server:
   ```
-  npm run dev
+  npm start
   ```
 
-- Build the project:
+- Build the project for production:
   ```
   npm run build
   ```
 
-- Run the built application:
+- Run tests:
   ```
-  npm start
+  npm test
+  ```
+
+- Eject from Create React App (advanced):
+  ```
+  npm run eject
   ```
 
 ## Features
 
+- React with TypeScript integration
+- Component-based architecture
 - TypeScript configuration with strict type checking
-- Basic project structure
-- Sample TypeScript class implementation
-- HTML/CSS for frontend display
+- React Router for navigation between pages
+- React Context API for theme and global state management
+- React Hooks demonstration (useState, useContext)
+- Dark mode / light mode theme switching
+- Type definitions with TypeScript interfaces
+- Sample TypeScript class service implementation
+- Modern CSS styling with responsive design
 
 ## License
 
