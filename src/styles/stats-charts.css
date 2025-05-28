@@ -1,0 +1,43 @@
+/* Charts Container Styles */
+.charts-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.charts-container h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* Add chart period selector styles to stats.css */
+.chart-period-selector {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.period-button {
+  padding: 8px 16px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.period-button:hover {
+  background-color: #e5e5e5;
+}
+
+.period-button.active {
+  background-color: #4CAF50;
+  color: white;
+  border-color: #4CAF50;
+}
