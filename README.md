@@ -2,6 +2,10 @@
 
 A comprehensive React with TypeScript application for tracking and visualizing habits and personal progress over time.
 
+## Github repository
+
+https://github.com/martiiponsaa/Enginyeria-de-Prompts-Lab6.git
+
 ## Project Structure
 
 ```
